@@ -30,8 +30,8 @@ function draw(){
 
   if(gameState === 0){
    play();
-    textSize(15);
-   FileList("white")
+    textSize(25);
+   fill("white")
    text("Score: "+ score, displayWidth/2+500,camera.y-300); 
  }
 
